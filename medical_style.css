@@ -1,0 +1,1386 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing:border-box ;
+
+
+}
+*::selection{
+      color: black;
+      background-color: rgb(203, 203, 203);
+}
+
+.info{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(0, 156, 199);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.info1{
+    height: 25px;
+    width: 180px;
+    /* background-color: rgb(95, 214, 244); */
+    margin-left: 30px;
+    
+}
+.info i:hover{
+    cursor: pointer;
+}
+.info2{
+    height: 25px;
+    width: 260px;
+    /* background-color: rgb(95, 214, 244); */
+    margin-left: 30px;
+    
+}
+.info2 a:hover{
+    cursor: pointer;
+    
+}
+.info2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.info1 i{
+    color: white;
+   margin-left: 10px;
+    
+}
+
+.nav1{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+  
+}
+.logo{
+    /* background-color: pink; */
+    background-image: url("sevenmentor-logos.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.nav1 h2{
+    margin-top: 10px;
+    color: rgb(12, 58, 74);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 510;
+}
+.icon>input{
+    height: 38px;
+    width: 380px;
+    background-color: white;
+    border-top: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(190, 190, 190);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+    /* margin-left: 150px; */
+    /* margin-top: 10px; */
+    outline: none;
+}
+.emergency{
+    height: 55px;
+    width: 100px;
+    /* background-color: plum; */
+    margin-left: 100px;
+}
+.emergency button{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 156, 199);
+    margin-top: 5px;
+
+}
+.apollo button{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 156, 199);
+    margin-top: 5px;
+
+}
+.apollo button:hover{
+    background-color: rgb(4, 121, 154);
+    
+}
+.apollo button a{
+    color: rgb(0, 156, 199);
+    text-decoration: none;
+}
+
+.emergency button a{
+    color: rgb(0, 156, 199);
+    text-decoration: none;
+}
+
+.emergency button:hover{
+    background-color: rgb(4, 121, 154);
+   
+}
+.emergency a{
+    color: rgb(42, 40, 40);
+    font-size: 13px;
+    
+}
+.emergency i {
+    color: rgb(0, 156, 199);
+    height:30px ;
+    width: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emergency i:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.apollo i {
+    color: rgb(0, 156, 199);
+    height:30px ;
+    width: 120px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.apollo i:hover{
+    color: goldenrod;
+ 
+}
+.apollo a{
+    color: rgb(42, 40, 40);
+    font-size: 13px;
+}
+.apollo{
+    height: 55px;
+    width: 100px;
+    /* background-color: rgb(112, 97, 112); */
+    margin-left: 50px;
+}
+.menubar{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-weight: 501;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.menubar a{
+    color: rgb(45, 43, 43);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#down1:hover .drop1{
+    /* color: rgb(0, 156, 199); */
+    display: block;  
+}
+
+.nav2{
+    height: 500px;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url("https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/d/1/3-hospitalist_patient-story.jpg__992x558_q85_crop-smart_subsampling-2_upscale.jpg?itok=HL_cR-BT");
+    background-size: cover;
+    display: flex;
+}
+.icon{
+    height: 38px;
+    width: 380px;
+    background-color: rgb(50, 70, 120);
+    /* border: 0.1px solid rgb(198, 198, 198); */
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+    outline: none;
+
+}
+.search{
+    background-color: rgb(255, 255, 255);
+    height: 38px;
+    width: 40px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+    border-right: 1px solid rgb(190, 190, 190);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+
+}
+.search2{
+    background-color: rgb(0, 156, 199);
+    height: 32px;
+    width: 35px;
+    margin-top: 2.5px;
+    margin-left: 2px;
+    border-radius: 3px;
+    color: black;
+
+}
+.search2:hover{
+    background-color: rgb(0, 120, 153);
+    cursor: pointer;
+}
+.search2 i{
+    color: rgb(255, 255, 255);
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 16px;
+
+}
+.drop1{
+    height: 320px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: none;
+   
+}
+.drop1 ul li {
+    list-style: none;
+    margin-top: 15px;
+
+}
+.drop1 ul li a:hover{
+    color: rgb(0, 156, 199);
+}
+
+.drop1 a{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    font-size: 13.5px;
+   
+    
+}
+
+#down1:hover .drop1{
+    display: block;
+}
+
+.drop2{
+    height: 540px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: none;
+   
+}
+.drop2 a{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    font-size: 13.5px;
+}
+.drop2 li{
+    list-style: none;
+    margin-top: 15px;
+}
+.drop2 li a:hover{
+    color: rgb(0, 156, 199);
+}
+
+.drop3{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: none;
+   
+}
+.drop3 a{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    font-size: 13.5px;
+}
+.drop3 li{
+    list-style: none;
+    margin-top: 15px;
+}
+.drop3 li a:hover{
+    color: rgb(0, 156, 199);
+}
+.drop4{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: none;
+   
+}
+.drop4 a{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    font-size: 13.5px;
+}
+.drop4 li{
+    list-style: none;
+    margin-top: 15px;
+}
+.drop4 li a:hover{
+    color: rgb(0, 156, 199);
+}
+.drop5{
+    height: 330px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: none;
+   
+}
+.drop5 a{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    font-size: 13.5px;
+}
+.drop5 li{
+    list-style: none;
+    margin-top: 15px;
+}
+.drop5 li a:hover{
+    color: rgb(0, 156, 199);
+}
+
+
+.drop6{
+    height: 300px;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: none;
+   
+}
+.drop6 a{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    font-size: 13.5px;
+}
+.drop6 li{
+    list-style: none;
+    margin-top: 15px;
+}
+.drop6 li a:hover{
+    color: rgb(0, 156, 199);
+}
+#down6:hover.drop6{
+    display: block;
+}
+
+.buttonA{
+    height: 290px;
+    width: 390px;
+    /* background-color: pink; */
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    margin-left: 100px;
+
+}
+.buttonn{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 0.2px solid rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+ 
+}
+.buttonn a{
+    text-decoration: none;
+    color: rgb(27, 25, 25);
+    font-size: 16px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    padding-top: 12px;
+}
+.buttonn:hover{
+    background-color: rgb(217, 241, 249);
+    border: 2px solid rgb(217,241,249);
+}
+.fixed{
+    height: 150px;
+    width: 200px;
+    /* background-color: pink; */
+    margin-top: 230px;
+    margin-left: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 170px;
+    left: 500px;
+}
+.fixed>input{
+    height: 40px;
+    width: 220px;
+    background-color: rgb(0, 156, 199);
+    border: 1px solid rgb(0, 156, 199);
+    /* margin-top: 5px; */
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 501;
+    cursor: pointer;
+}
+.M1:hover{
+    background-color: rgb(3, 137, 174);
+}
+.fixed .M2{
+    height: 40px;
+    width: 220px;
+    background-color: rgb(228, 101, 22);
+    border: 1px solid rgb(228, 101, 22);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.M2:hover{
+    background-color: rgb(197, 85, 16);
+}
+.kicks #call-log{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 20px;
+    margin-top: 5px;
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    font-weight: 501;
+    /* margin-left: 10px; */
+    cursor: pointer;
+   
+    
+}
+.kicks{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 20px;
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    font-weight: 501;
+    display: flex;
+    margin-left: 20px;
+
+}
+.kicks .round{
+    height: 42px;
+    width: 42px;
+    background-color: rgb(10, 114, 232);
+    border-radius: 50%;
+    margin-left: -20px;
+    border: 2.2px solid white;
+    cursor: pointer;
+}
+.round i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    color: white;
+   
+}
+.kicks .call-us{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(10, 114, 232);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: -22px;
+    margin-left: 20px;
+}
+
+.nav3{
+    height: 850px;
+    width: 100%;
+    background-color:rgb(234, 254, 254) ;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIhNx6W5WEmu2LCgFO4ACYh0dFMJbeWoHFOIYnZzOuJA&s"); */
+    background-size: cover;
+}
+.nav3 h2{
+    margin-left: 580px;
+    font-weight: 400;
+    padding-top: 60px;
+    
+}
+.nav3 p{
+    width: 750px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 300px;
+    
+}
+.nav3A{
+    height: 350px;
+    width: 1200px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    
+}
+.A3-1{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.A3-1:hover{
+    transform: scale(1.05);
+    border: 1.5px solid rgb(210, 169, 65);
+}
+.A3-2:hover{
+    transform: scale(1.05);
+    border: 1.5px solid rgb(210, 169, 65);
+}
+.A3-3:hover{
+    transform: scale(1.05);
+    border: 1.5px solid rgb(210, 169, 65);
+}
+.A3-4:hover{
+    transform: scale(1.05);
+    border: 1.5px solid rgb(210, 169, 65);
+}
+.A3-5:hover{
+    transform: scale(1.05);
+    border: 1.5px solid rgb(210, 169, 65);
+}
+.A3-6:hover{
+    transform: scale(1.05);
+    border: 1.5px solid rgb(210, 169, 65);
+}
+.A3-2{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.A3-3{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.nav3B{
+    height: 350px;
+    width: 1200px;
+    /* background-color: rgb(20, 36, 30); */
+    display: flex;
+    margin-top: -40px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+.A3-4{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.A3-5{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.A3-6{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.image1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: beige; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/cardiology_icon.svg");
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+
+.A3-1 h3{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.A3-1 p{
+    height: 50px;
+    width: 310px;
+    margin-left: -1px;
+    color: rgb(44, 41, 41);
+}
+
+.image2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: beige; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/oncology_icon.svg");
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+.A3-2 h3{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.A3-2 p{
+    height: 50px;
+    width: 310px;
+    margin-left: -1px;
+    color: rgb(44, 41, 41);
+}
+
+.image3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: beige; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/paediatricurology.svg");
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+.A3-3 h3{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.A3-3 p{
+    height: 50px;
+    width: 310px;
+    margin-left: -1px;
+    color: rgb(44, 41, 41);
+}
+
+.image4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: beige; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/neonatology.svg");
+    background-size:cover;
+   
+}
+.A3-4 h3{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.A3-4 p{
+    height: 50px;
+    width: 310px;
+    margin-left: -1px;
+    color: rgb(44, 41, 41);
+}
+
+.image5{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: beige; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/radiology.svg");
+    background-size:cover;
+   
+}
+.A3-5 h3{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.A3-5 p{
+    height: 50px;
+    width: 310px;
+    margin-left: -1px;
+    color: rgb(44, 41, 41);
+}
+
+.image6{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: beige; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/ophthalmology.svg");
+    background-size:cover;
+   
+}
+.A3-6 h3{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.A3-6 p{
+    height: 50px;
+    width: 310px;
+    margin-left: -1px;
+    color: rgb(44, 41, 41);
+}
+
+.nav4{
+    height: 750px;
+    width: 100%;
+    background-color: rgb(234, 254, 254);
+    
+
+}
+.nav4 h4{
+    font-weight: 500;
+    margin-left: 500px;
+    padding-top: 50px;
+    
+}
+.nav4 h1{
+    font-weight: 550;
+    margin-left: 450px;
+    margin-top: 10px;
+    
+}
+.nav4 h5{
+    font-weight: 500;
+    margin-left: 400px;
+    margin-top: 10px;
+    
+}
+.Spaces{
+    height: 650px;
+    width: 1200px;
+    /* background-color: rgb(254, 71, 101); */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+
+}
+.Spaces1{
+    height: 500px;
+    width: 650px;
+    background-color: rgb(234, 254, 254);
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.Spaces2{
+    height: 500px;
+    width: 520px;
+    margin-top: 50px;
+    /* background-image: url("https://t3.ftcdn.net/jpg/05/82/60/88/360_F_582608801_Pqvd5xZU3vfyHNXoYo1XJp1Xq7DFiE7T.jpg "); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* border: 10px solid white; */
+    /* border-radius: 10px; */
+    /* background-color: rgb(164, 103, 113); */
+    
+}
+.spec1{
+    height: 140px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: rgb(255, 255, 255);
+  
+}
+.Spaces2 img{
+    border: 5px solid rgb(180, 241, 233);
+    border-radius: 5px;
+}
+.mini1{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_hsptl.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec2{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini2{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_speciality.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec3{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini3{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_planyourtrip.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec4{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini4{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_testimonials.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec5{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini5{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_faq.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec6{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini6{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_doctor.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec7{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini7{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_onlineconsultation.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec8{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini8{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_Apollo%20Insurance.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.spec9{
+    height: 140px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mini9{
+    height: 70px;
+    width:70px ;
+    /* background-color: bisque; */
+    background-image: url("https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_visa.svg");
+    background-size: contain ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+h6{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+#HV:hover{
+      border: 1px solid rgb(215, 174, 70);
+
+    }
+.btn{
+    height:80px;
+    width: 520px;
+    background-color: rgb(189, 236, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.btn:hover{
+    background-color: rgb(170, 229, 238);
+    border: 2px solid rgb(20, 210, 240);
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    height: 80px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn i{
+    font-size: 22px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bottom-panel{
+    width: 100%;
+    height: 280px;
+    background-color: #007C9D;
+    text-align: center;
+    padding: 55px 0px;
+    
+    
+}
+
+.bottom-panel h1{
+    padding: 0px;
+    margin: 0px 0px 21.44px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.bottom-panel-inner{
+    width: 1300px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+#bottom-p-i-box1{
+    width: 180px;
+    height: 130px;
+    background-color: #ffffff;
+    padding: 20px ;
+    margin: 0px 15px;
+    border-radius: 12px;
+}
+
+.footer-panel1{
+    width: 100%;
+    height:663.2px;
+    background-color: #060822;
+}
+
+.footer-div1{
+    width: 1319px;
+    height:640.2px;
+    background-color: #060822;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px 10px;
+    color:#ffffff;
+
+
+}
+
+.foot-div-box-1{
+    width: 260px;
+    height: 643px;
+    font: 10px;
+    padding: 0px 10px ;
+    font-size: 12px;
+    padding-top: 35px;
+}
+
+.foot-div-box{
+    width: 169px;
+    height: 643px;
+    font: 10px;
+    padding: 0px 10px ;
+    font-size: 12px;
+    padding-top: 35px;
+}
+
+.div1-p{
+    width: 243px;
+    height: 34px;
+    color:#E96A25;
+    font-size:14px;
+    font-weight: 600;
+}
+
+.div1-h2{
+    width: 291px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.foot-b1-email{
+    width: 242px;
+    height: 40px;
+    padding: 10.56px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    outline: none;
+}
+.foot-b1-email:active{
+    background-color: rgb(215, 215, 215);
+}
+
+.foot-b1-butt{
+    width: 243px;
+    height: 40px;
+    /* padding: 10.56px 12px; */
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #007C9D;
+    color:#ffffff;
+    border: 1px solid #007C9D;
+}
+.foot-b1-butt:hover{
+    background-color:#005e78 ;
+}
+
+.foot-b1-call-logo{
+    width: 243px;
+    height: 54.95px;
+    display: flex;
+    margin: 20px 0px ;
+
+}
+
+.foot-b1-call-logo i{
+    width: 20px;
+    height: 20.8px;
+    color: #E96A25;
+    margin: 0px 8px;
+    padding: 5px 0px 0px;
+}
+
+.call-h6 h6{
+    font-size: 12.8px;
+}
+
+.call-h6 p{
+    font-size: 14px;
+    color: #007C9D;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+#h5foottext{
+    margin: 10px 0px;
+    color:#ffffff;
+    font-size: 14px;
+}
+
+li{
+    margin: 10px 0px 0px ;
+}
+
+li a{
+    color:#94A0A3
+}
+
+.footer-div2{
+    width: 100%;
+    height: 109.6px;
+    background-color: #060822 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2div{
+    width: 926px;
+    height: 109.2px;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+
+   
+}
+
+#div2-inner{
+    width: 73.46px;
+    height: 70px;
+    padding: 0px 12px;
+}
+
+.div2-inner1{   
+    padding: 0PX 12PX ;
+    font-size: 12px;
+}
+
+.div2-inner1 p{
+   margin-top: 10px;
+}
+
+.div2-inner1 a{
+    color:#007C9D;
+ }
+ 
+.footer-div3{
+    width: 100%;
+    height: 109.6px;
+    background-color: #060822 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.footer-3div{
+    width: 926px;
+    height: 109.2px;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px; 
+}
+
+.div3-h3{
+    color:#007C9D;
+}
+
+.footer-div4{
+    width: 100%;
+    height: 50px;
+    background-color: #007C9D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.div4-inner i{
+    margin: 0px 5px;
+}
+
+.inner-div4{
+    display: flex;
+}
+.inner-div4 a{
+    margin: 0px 5px;
+}
+
+.footer-div5{
+    width: 100%;
+    height: 60.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-5div{
+    width: 600px;
+    height: 36.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    border:1px solid rgb(233, 230, 230);
+    border-radius: 5px;
+}
+
+.footer-5div li{
+    list-style: none;
+}
+.footer-div5 b{
+   color:#51565D
+}
+#down-2{
+    height: 450px;
+    width: 250px;
+    background-color: #E96A25;
+    box-shadow: 0px 0px 30px rgba(255,255,255,0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://www.bhatiahospital.org/storage/app/public/home_banner/2/image/1503411077revised-bhatia-homebanner-03.jpg */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
